@@ -1,0 +1,11 @@
+# dot-gitignore
+
+# OS/X junk
+.DS_Store
+
+# Coq docs
+docs/
+
+# Compiled Coq files
+*.vo
+*.glob

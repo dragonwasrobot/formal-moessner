@@ -1,39 +1,24 @@
-========
-Moessner
-========
+# A Formal Study of Moessner's Sieve
 
------
-About
------
+Final monograph also available at: http://ebooks.au.dk/index.php/aul/catalog/book/213
 
-Title: Moessner
-Author: Peter Urbak
-Version: 1.0, 2014-06-02
-
-------------
-Installation
-------------
+## Installation
 
 0. Download the 3rd party library paco, located at:
    http://plv.mpi-sws.org/paco/paco-1.2.7.zip
    More info about the project can be found at:
 	 http://plv.mpi-sws.org/paco/
-
 1. Unzip the paco project and run 'make install' in the 'src' folder of the
    project. This will install 'paco' in the Coq installation directory such that
    it can be 'Required' like any other standard library module.
-
 2. Now run 'make install' in the 'src' folder of the Moessner project in order
    to compile all Coq scripts.
-
 3. The code base of the Moessner project is now ready to be explored and stepped
    through.
 
------------------
-Project structure
------------------
+## Project structure
 
-Below we list the coq scripts which accompany each of the different chapters.
+Below we list the Coq scripts which accompany each of the different chapters.
 
 Chapter 4 (lists and streams):
 - ListCalculus.v
